@@ -1,5 +1,4 @@
 use axum::{routing::get, Router};
-use serde::{Deserialize, Serialize};
 
 #[tokio::main]
 async fn main() {
