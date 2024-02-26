@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2.5 px-4 bg-orange text-white rounded capitalize hover:bg-light-orange flex items-center gap-2;
+  }
+}
+
